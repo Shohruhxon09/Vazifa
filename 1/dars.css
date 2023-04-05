@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg-color);
+}
+:root{
+    --bg-color:#1e252b;
+}
+.sconteiner{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.sconteiner1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.i1{
+    filter:blur(5px);
+}
+.i2{
+    filter: invert(200%) ;
+}
+.i3{
+    filter:saturate(600%) ;
+}
+.i4{
+    filter:sepia(150%) ;
+}
+.i5{
+    filter:hue-rotate(90deg) ;
+}
+.i6{
+    filter:grayscale(400%) ;
+}
+.i1:hover{
+    filter:none;
+}
+.i2:hover{
+    filter: none ;
+}
+.i3:hover{
+    filter:none ;
+}
+.i4:hover{
+    filter:none ;
+}
+.i5:hover{
+    filter:none ;
+}
+.i6:hover{
+    filter:none ;
+}
+.div1 h1{
+    text-align: center;
+    filter:drop-shadow(invert(40%) saturate(2589%) sepia(60%) hue-rotate(80deg));
+    color: #44c;
+}
+.div2 h1{
+    text-align: center;
+    filter:drop-shadow(invert(40%) saturate(2589%) sepia(60%) hue-rotate(80deg));
+    color: #44c62d;
+}
+.div3 h1{
+    text-align: center;
+    filter:drop-shadow(invert(40%) saturate(2589%) sepia(60%) hue-rotate(80deg));
+    color: #62a;
+}
+.div4 h1{
+    text-align: center;
+    filter:drop-shadow(invert(40%) saturate(2589%) sepia(60%) hue-rotate(80deg));
+    color: #96e;
+}
+.div5 h1{
+    text-align: center;
+    filter:drop-shadow(invert(40%) saturate(2589%) sepia(60%) hue-rotate(80deg));
+    color: #11c;
+}
+.div6 h1{
+    text-align: center;
+    filter:drop-shadow(invert(40%) saturate(2589%) sepia(60%) hue-rotate(80deg));
+    color: #18c65f;
+}
+img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.div1{
+    background-color: #44c62d;
+    border-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.div2{
+    background-color:brown;
+    border-radius: 15px;
+}
+.div3{
+    background-color:chartreuse;
+    border-radius: 15px;
+}
+.div4{
+    background-color: yellow;
+    border-radius: 15px;
+}
+.div5{
+    background-color: rebeccapurple;
+    border-radius: 15px;
+}
+.div6{
+    background-color: blue;
+    border-radius: 15px;
+}
+button{
+    margin: 5px;
+    margin-bottom: 10px;
+    margin-left: 165px;
+    border: 3px inset rgb(50, 70, 95);
+    background-color: gold;
+    border-radius: 20px;
+    padding: 3px;
+}
+button:hover{
+    margin-left: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: darkblue
+}
